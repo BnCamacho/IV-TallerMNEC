@@ -1,0 +1,4 @@
+
+---> http://lsi.ugr.es/jmantas/pdp/ayuda/instalacion.php?ins=openmpi
+
+---> sudo apt-get install openmpi-bin openssh-client openssh-server libopenmpi-dbg libopenmpi-dev

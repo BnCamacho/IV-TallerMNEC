@@ -1,0 +1,11 @@
+
+
+---> wget www.fftw.org/fftw-3.3.8.tar.gz
+
+Follow
+
+---> http://www.fftw.org/fftw3_doc/Installation-on-Unix.html#Installation-on-Unix
+
+---> ./configure
+---> make
+---> make install

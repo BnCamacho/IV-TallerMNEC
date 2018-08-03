@@ -1,0 +1,44 @@
+
+How to install GSL on Linux
+
+Check the tutorial https://coral.ise.lehigh.edu/jild13/2016/07/11/hello/ 
+and https://askubuntu.com/questions/890027/installing-gsl-libraries-in-ubuntu-16-04-via-terminal
+
+A summary is:
+
+Check available version at
+
+---> https://www.gnu.org/software/gsl
+
+Then dowload it
+
+---> wget ftp://ftp.gnu.org/gnu/gsl/gsl-*.*.tar.gz
+
+---> tar -zxvf gsl-*.*.tar.gz
+
+---> cd gsl-*.*
+
+---> mkdir /home/yourname/gsl
+
+---> ./configure --prefix=/home/yourname/gsl
+
+---> make
+
+---> make check
+
+---> make install
+
+Put it on its appropriate directories
+
+---> sudo cp -r /home/yourname/gsl/include/gsl/ /usr/include/
+
+---> sudo cp /home/yourname/gsl/lib/libgsl* /usr/lib/
+
+---> sudo cp /home/yourname/gsl/lib/pkgconfig/gsl.pc /usr/lib/pkgconfig/
+
+
+
+
+
+
+
